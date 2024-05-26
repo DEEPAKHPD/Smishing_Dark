@@ -46,7 +46,7 @@ public class ThemeSelectionActivity extends AppCompatActivity {
                 }
                 // Apply the theme immediately without restarting the activity
                 recreate();
-
+                finish();
             }
         });
 
